@@ -1,0 +1,46 @@
+
+        // tipos de variaveis : Number = 5, 6, 18; String = "Ola"; Boolean = false true; Array[]; Object{}. Não existe char apenas usar string
+
+        var x = 5; //usar o let por ser mais utilisado
+        let y = 8;
+        // const w = 9;
+
+        /*Console.Write == Console.Log*/ 
+        console.log(x)
+        console.log(y)
+
+        //Escreve o tipo da variavel
+        console.log(typeof x)
+
+        //Estilo do bool
+        let logico = true
+        console.log(logico)
+        console.log(typeof logico)
+
+        let nome1 = "joão"
+        let nome2 = "maria"
+        let nome3 = "jose"
+
+        //Concatenação de string
+        console.log(nome1 + " e " + nome2)
+
+        //interpolação de string
+        const nome = "Matheus"
+        const idade = 30;
+        const frase = `O nome dele é ${nome} e ele tem ${idade} anos`
+        console.log(frase)
+
+        // relações maior e menor
+        console.log(5 > 2)
+        console.log(-2 < 1)
+        console.log(2 * 2)
+
+        // ; opicional pra terminar linhas de comando. O professor falou que tem um caso que não é opcional que é quando vamos execut\ar varios comandos na mesma linha
+
+        //tipos especiais ou numeros especiais
+        let a = 12
+        let b = "carlos"
+
+        console.log(b * a) // caso not a number, por que carlos é uma string e 12 é número
+
+        
