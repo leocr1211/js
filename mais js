@@ -1,0 +1,37 @@
+/*forçando variveis se tornarem outras
+let a = "123abc"
+let b = Number(a)
+console.log(b)
+console.log(typeof b)
+
+a = 123
+b = String(a)
+console.log(b)
+console.log(typeof b)
+
+a = 2
+b = Boolean(a)
+console.log(b)
+console.log(typeof b)
+
+a = "12"
+b = parseInt(a)
+console.log(typeof b)*/
+
+
+/*
+//existe mais é pouco usado
+let nome = prompt("Digite o seu nome: ")
+console.log(`O nome digitado foi ${nome}`)
+alert(`O nome digitado foi ${nome}`)
+*/
+
+/*
+console.log(Math.min(10, 20, 5, 15))//fala o menor valor
+console.log(Math.max(10, 20, 5, 15))//fala o maior valor
+console.log(Math.ceil(4.3))//arredonda p cima
+console.log(Math.floor(5.6))//arrendonda p baixo
+console.log(Math.round(5.7))//arrendonda p baixo/cima considerando 0.5
+console.log(Math.sqrt(25))//raíz
+console.log(Math.pow(2,3))// eleva um número a um expoente
+*/
