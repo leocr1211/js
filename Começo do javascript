@@ -34,6 +34,7 @@
         console.log(5 > 2)
         console.log(-2 < 1)
         console.log(2 * 2)
+    
 
         // ; opicional pra terminar linhas de comando. O professor falou que tem um caso que não é opcional que é quando vamos execut\ar varios comandos na mesma linha
 
@@ -43,4 +44,26 @@
 
         console.log(b * a) // caso not a number, por que carlos é uma string e 12 é número
 
-        
+
+        console.log(typeof (10 / 0)) // caso infinity, isto é um número
+        console.log(typeof (-10 / 0)) // caso -infinity, isto é um número
+        console.log(Number.MAX_VALUE * 2)
+
+
+        console.log(8 === "8") // Cuidado mistura de string e int, use 3 sinais de =
+
+        //Empty value que é null e
+        let e = null // ISTO É UMA INFORMAÇÃO DO TIPO OBJECT
+        console.log(e)
+        console.log(typeof e)
+
+        let d
+        console.log(d)
+        console.log(typeof(typeof d))// isto é uma string
+
+        console.log(null === undefined) // false NÃO SÃO IGUAIS
+        console.log(null == undefined) // true, porém não são totalmente iguais
+
+        console.log(null == false)
+        console.log(undefined == false)
+
