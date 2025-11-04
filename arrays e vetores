@@ -1,0 +1,28 @@
+// console.clear limpa
+
+
+//Arrays/Vetores
+let num = [1,2,3,4,5]
+
+for(let i = 0; i < num.length; i++)
+    console.log(num[i])
+
+
+
+let palavra = "Gato Garfield"
+console.log(palavra.toUpperCase)
+console.log(palavra.indexOf("G"))
+console.log(palavra.lastIndexOf("G"))
+
+
+//object literais
+const Pessoa = {
+    nome : "Nelson",
+    idade : 21,
+    profissão: "Professor"
+}
+
+//acesso das propriedades do objeto
+console.log(Pessoa.nome)
+console.log(Pessoa.idade)
+console.log(Pessoa.profissão)
