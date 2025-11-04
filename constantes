@@ -1,0 +1,25 @@
+const obj1 = {
+    a: "Teste",
+    b: true
+};
+
+console.log(obj1 instanceof Object); //instanceof checa o tipo do objeto
+
+const obj2 = {
+    c: []
+};
+
+Object.assign(obj2, obj1);// mescla o que está no 1 no 2
+console.log(obj2);
+
+console.log(Object.keys(obj1));
+console.log(Object.keys(obj2));
+
+const AmigosDoNelson = ["Paula", "Patrícia", "Flávia", "Priscila"]
+
+AmigosDoNelson.push("Aline")
+console.log(AmigosDoNelson)
+AmigosDoNelson.pop()
+console.log(AmigosDoNelson)
+
+AmigosDoNelson.unshift("Barbara")// bota string no começo
